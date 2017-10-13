@@ -1,0 +1,232 @@
+
+.indicator{
+	position: fixed;
+	right: 0;
+	bottom: 100px;
+	top: 50%;
+	margin-top: -85px;
+
+}
+.indicator>ul>li{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	margin: 30px;
+	border-radius: 20px;
+	box-shadow:2px 2px 4px #000000;
+	cursor: pointer;
+
+}
+/*导航条*/
+.nav{}
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(152, 251, 152,.0);
+	position: fixed;
+}
+
+/*内容*/
+.container{}
+.container{
+
+}
+.container .page{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	/*border-bottom: 4px solid #aaa;*/
+}
+.first{
+	
+	/*background-image: url(../images/page1.jpg);*/
+	background-repeat: no-repeat;
+	text-align: center;
+	/*line-height: 300px;*/
+	color:white;
+	text-shadow:2px 2px 4px #000000;
+	padding-top: 100px;
+	text-align: center;
+}
+.first p:nth-child(1){
+
+	font-size: 40px;
+	padding-top: 30px;
+}
+.first button{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	padding: 0;
+	text-shadow:2px 2px 4px #000000;
+	background-color: rgba(166, 209, 182,0);
+	margin: 50px auto;
+	text-align: center;
+	outline: 0;
+	border: 0;
+	/*line-height: 20px;*/
+}
+.first button:hover{
+	color:rgb(166, 209, 182);
+}
+.first p:nth-child(3),.page1 p:nth-child(4),.page1 p:nth-child(5){
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.page:nth-child(1){
+	background-color: #d2d2d2;
+}
+.page:nth-child(2){
+	background-color: skyblue;
+}
+.second p{
+	text-align: center;
+	font-size: 40px;
+	/*font-weight: bold;*/
+	text-shadow:2px 2px 4px #000000;
+	color: white;
+	padding: 100px;
+}
+.second ul li{
+	text-align: center;
+
+	text-shadow:2px 2px 4px #000000;
+	color: white;
+}
+.second ul li div{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 2px solid white;
+	box-shadow:2px 2px 4px #000000;
+	
+	text-align: center;
+	line-height: 90px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.second ul li p{
+	padding-top: 20px;
+	font-size: 24px;
+}
+
+.page:nth-child(3){
+	background-color: rgba(163, 201, 178,.0);
+	padding-top: 100px;
+}
+/*技能*/
+#ability{
+	width: 200px;
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+	transform-style:preserve-3d;
+}
+#ability .cockhorse{
+	width: 219px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	/*opacity: .6;*/
+	line-height: 50px;
+	font-weight: bold;
+	background-color: rgba(251, 148, 136,.6);
+	border-radius: 10px;
+}
+
+/*技能掌握详情*/
+.container .abi-details{
+	width: 60%;
+	height: 300px;
+	border: 2px solid #fff;
+	box-shadow: 2px 2px 4px #d2d2d2;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 2px 2px 4px #444;
+}
+
+.page:nth-child(4){
+	background-color: rgba(163, 201, 178,.3);
+	/*padding-top: 50px;*/
+}
+.third{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+.third p{
+	height: 40px;
+	text-align: center;
+	padding: 40px;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+
+
+.page:nth-child(5){}
+.fourth{
+	padding-top: 50px;
+}
+.fourth ul{
+	width: 40%;
+	/*height: 100%;*/
+	margin: 0 auto;
+}
+.fourth ul li{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	margin-bottom: 100px;
+
+}
+.fourth .wk-year{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	/*float: left;*/
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	/*border: 2px solid #bbb;*/
+}
+.fourth .wk-year p{
+	height: 20%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow:2px 2px 4px #000000;
+}
+.fourth .wk-job{
+	height: 200px;
+	flex: 1;
+	/*background-color: #fff;*/
+	padding-left: 20px;
+	color: white;
+}
+.fourth .wk-job p{
+	padding-top: 20px;
+	font-size: 20px;
+	text-shadow:2px 2px 4px #000000;
+}
+
+
+
+

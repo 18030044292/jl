@@ -1,0 +1,22 @@
+{
+  "name": "jianli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18030044292/jianli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/18030044292/jianli/issues"
+  },
+  "homepage": "https://github.com/18030044292/jianli#readme",
+  "description": ""
+}
